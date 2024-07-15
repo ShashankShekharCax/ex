@@ -1,0 +1,19 @@
+.detailsContainer{
+  // background-color: black;
+  color: #fff;
+}
+.leftList{
+  list-style: none;
+  padding: 0;
+  li{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    .title{
+      background-color: black;
+      color: #fff;
+    }
+  }
+}

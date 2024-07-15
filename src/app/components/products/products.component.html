@@ -1,0 +1,33 @@
+<section style="background-color: rgb(42, 41, 41);">
+  <div class="container" *ngIf="selectedProduct[0]">
+    <div class="detailsContainer">
+      <!-- <div class="header">
+        <h2>{{selectedProduct[0].title}}</h2>
+        {{selectedProduct[0].details|json}}
+      </div> -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="leftList">
+              <li *ngFor="let item of selectedProduct[0].details">
+                <div class="title">
+                  <h2>{{item.name}}</h2>
+                </div>
+                <div class="row details">
+                  <div class="col-lg-4">
+                    <img class="image" src="https://www.kankasexports.com/images/products/indianspices/Star_Anise.jpg" alt="">
+                  </div>
+                  <div class="col-lg-8">
+                    {{item.description}}
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
