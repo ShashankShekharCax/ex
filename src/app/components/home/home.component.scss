@@ -12,7 +12,7 @@
 }
 .parallax {
   background-image: url('../../../assets/images/slide1.jpg');
-  height: 90vh;
+  // height: 90vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 }
 
 .overlay {
-  position: absolute;
+  // position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -329,13 +329,20 @@
     border: none;
     box-shadow: none;
     .icon{
-      width: 100%;
+      max-height: 10vh;
     }
     .query{
-      border: 2px solid #fff;
+      text-align: center;
+      // border: 2px solid #fff;
       padding: 10px;
       border-radius: 10px;
       margin: 3vh 0px;
     }
   }
+}
+.caption{
+  text-align: justify;
+}
+.img-container{
+  text-align: center;
 }
